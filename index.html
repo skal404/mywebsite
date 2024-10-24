@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Welcome to the Matrix</title>
+    <title>Welcome to the MX.Underground</title>
     <style>
         body {
             background-color: black;
-            color: #00FF00;
+            color: #FF0000;
             font-family: 'Courier New', Courier, monospace;
             overflow: hidden;
         }
@@ -16,7 +16,7 @@
             text-align: center;
             margin-top: 50px;
             font-size: 3em;
-            text-shadow: 0 0 10px #00FF00;
+            text-shadow: 0 0 10px #FF0000;
         }
         p {
             text-align: center;
@@ -33,8 +33,8 @@
         .matrix-code {
             font-size: 20px;
             line-height: 1.1;
-            color: #00FF00;
-            text-shadow: 0 0 10px #00FF00;
+            color: #FF0000;
+            text-shadow: 0 0 10px #FF0000;
             white-space: nowrap;
         }
         @keyframes fall {
@@ -52,15 +52,15 @@
             animation-duration: 4s;
         }
         .code-line:nth-child(odd) {
-            animation-duration: 6s;
+            animation-duration: 10s;
         }
     </style>
 </head>
 <body>
     <canvas id="matrixCanvas" class="matrix"></canvas>
 
-    <h1>Welcome to the Matrix</h1>
-    <p>Do you take the red pill or the blue pill?</p>
+    <h1>Welcome to hell</h1>
+    <p><i>mxug or better by the byteboss they call skal</p></i>
 
     <script>
         const canvas = document.getElementById('matrixCanvas');
@@ -82,7 +82,7 @@
             ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-            ctx.fillStyle = '#00FF00';
+            ctx.fillStyle = '#FF0000';
             ctx.font = `${fontSize}px Courier`;
 
             // Draw characters
